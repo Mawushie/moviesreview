@@ -13,7 +13,7 @@ export default class MovieReviews extends Component {
        
         .then(movies =>{
             var movieslist = movies.results
-            console.log(movieslist)
+           
             this.setState({
                 movies: movieslist
             })
